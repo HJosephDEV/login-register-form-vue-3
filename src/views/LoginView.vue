@@ -6,13 +6,13 @@
     <form class="form-container">
       <el-form-item label="Usuário">
         <el-input 
-          v-model="user" 
+          v-model="login.user" 
           placeholder="Digite aqui" 
         />
       </el-form-item>
       <el-form-item label="Senha">
         <el-input
-          v-model="password"
+          v-model="login.password"
           type="password"
           placeholder="•••••••••••"
           show-password
@@ -32,16 +32,23 @@
 </template>
 
 <script setup lang="ts">
-import type { Ref } from "vue";
-import { ref } from "vue";
+import { ref, reactive } from "vue";
 import { 
   ElInput, 
   ElFormItem, 
   ElButton 
 } from "element-plus";
 
-const user: Ref<string> = ref("");
-const password: Ref<string> = ref("");
+interface login { 
+  user: string,
+  password: string
+}
+
+const login: login = reactive({
+  user: '',
+  password: ''
+})
+
 </script>
 
 <style lang="scss">
