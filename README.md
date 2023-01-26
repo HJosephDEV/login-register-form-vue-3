@@ -1,46 +1,44 @@
-# login-register-form-vue-3
+# Página de login e cadastro
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto realizado para praticar Vue 3, SPA, Typescript e o framework Element Plus.
 
-## Recommended IDE Setup
+## 📋 Pré-requisitos
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Node v18.13.0
 
-## Type Support for `.vue` Imports in TS
+## 🖥️ Inicializando o projeto
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+### Instalação de dependências
 
 ```sh
 npm install
 ```
-
-### Compile and Hot-Reload for Development
+### Inicialização do projeto
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## 🎨 Ilustrações do projeto
 
-```sh
-npm run build
-```
+<p align="center">
+    <img src="https://cdn.discordapp.com/attachments/1048325700794458152/1067976457550319616/image.png"/>
+</p>
 
-### Lint with [ESLint](https://eslint.org/)
+<p align="center">
+    <img src="https://cdn.discordapp.com/attachments/1048325700794458152/1067976506241994773/image.png"/>
+</p>
 
-```sh
-npm run lint
-```
+<p align="center">
+    <img src="https://cdn.discordapp.com/attachments/1048325700794458152/1067976542698885150/image.png"/>
+</p>
+
+![azc](https://user-images.githubusercontent.com/65923385/214737550-274d4f0d-ad82-4737-8195-15357f5d4627.gif)
+
+### 🛠 Tecnologias
+
+- [Vue 3](https://vuejs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [SASS](https://sass-lang.com/)
+- [Element Plus](https://element-plus.org/en-US/)
+- [TypeScript](https://www.typescriptlang.org/)
