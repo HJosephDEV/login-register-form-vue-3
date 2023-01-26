@@ -488,7 +488,7 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 
 @media (max-width: 768px) {
   #register-container {
-    width: 100%;
+    width: 90%;
 
     .title {
       font-size: 5vw;
@@ -498,8 +498,17 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 
 @media (max-width: 480px) {
   #register-container {
+    padding: 80px 0;
     .title {
       font-size: 7vw !important;
+    }
+
+    .return-icon {
+      left: 18px;
+    }
+
+    .form-container {
+      margin-top: 18px;
     }
   }
 }

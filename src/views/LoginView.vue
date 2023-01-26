@@ -60,7 +60,7 @@ const login: login = reactive({
   border: 5px solid #7fe7c4;
   box-shadow: 0 0 10px 2px #7fe7c4;
   padding: 80px 30px;
-
+  margin: 0 auto;
   input {
     color: #fff;
   }
