@@ -385,7 +385,7 @@ const rules = reactive<FormRules>({
 const submitForm = async (formEl: FormInstance | undefined) => {
   ruleForm.flagRegister = true;
   if (!formEl) return
-  await formEl.validate((valid, fields) => {
+  await formEl.validate((valid) => {
     if (valid) formEl.resetFields()
   });
 }
